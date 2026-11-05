@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación 3D con Three.js</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Mapa de importación para que el navegador resuelva el módulo 'three' -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- Canvas requerido en el paso 18 -->
+    <canvas id="mi-canvas"></canvas>
+    
+    <!-- Archivo JavaScript principal definido como módulo -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
